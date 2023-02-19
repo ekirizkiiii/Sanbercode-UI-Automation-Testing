@@ -1,0 +1,25 @@
+{
+  "name": "sanbercode-ui-automation-testing",
+  "version": "1.0.0",
+  "description": "Sanbercode - Tugas Pekanan 5 UIAutomation Testing using Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run --spec 'cypress/e2e/*.cy.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ekirizkiiii/Sanbercode-UI-Automation-Testing.git"
+  },
+  "author": "Eki Rizki Pratama Putra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ekirizkiiii/Sanbercode-UI-Automation-Testing/issues"
+  },
+  "homepage": "https://github.com/ekirizkiiii/Sanbercode-UI-Automation-Testing#readme",
+  "dependencies": {
+    "cypress": "^12.5.1"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0"
+  }
+}
